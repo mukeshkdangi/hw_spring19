@@ -1,0 +1,35 @@
+How to run :
+
+javac Players.java 
+java Players 
+
+Concept :
+1. I first create a map for each player. 
+and each player will have it's own map which consits of gameName and time stamp 
+2. For each player i sorted the map of gameName, timestamp by timestamp 
+3. Now, for each sorted map, i create all possible combination of game, timestamp where we satisfy t1<t2<t3 etc 
+
+and then store the final output on a file 
+
+
+
+
+Test Case : 
+Tom	    game1	4
+Mike	game1	3
+Tom	    game2	1
+Tom	    game3	3
+Mike	game3	2
+Tom	    game4	2
+Mike	game4	1
+
+Output of my program :
+
+tripletMap {123=2, 234=1}
+which is basically same as 
+
+(game4, game3, game1)           2
+(game2, game4, game3)           1
+
+
+
