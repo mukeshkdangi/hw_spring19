@@ -1,0 +1,7 @@
+Tom	game1	4
+Mike	game1	3
+Tom	game2	1
+Tom	game3	3
+Mike	game3	2
+Tom	game4	2
+Mike	game4	1
